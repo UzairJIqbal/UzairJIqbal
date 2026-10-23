@@ -1,47 +1,37 @@
 <h1 align="center">Hi, I'm Uzair Javaid</h1>
 
 <p align="center">
-  <b>Full-stack & AI engineer</b> · I build Next.js products and the LLM agents, tools and evals behind them.<br/>
+  <b>Full-stack & AI engineer.</b> I build Next.js products whose AI features show their work: answers traced to parsed code, meeting transcripts or database rows, not guessed.<br/>
   CS @ COMSATS '27 · Pakistan · <b>Open to remote roles</b>
 </p>
 
 <p align="center">
-  <a href="https://uzairjiqbal.github.io"><img src="https://img.shields.io/badge/Portfolio-uzairjiqbal.github.io-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
-  <a href="mailto:uzair.j1089@gmail.com"><img src="https://img.shields.io/badge/Email-uzair.j1089%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://uzairjiqbal.github.io"><img src="https://img.shields.io/badge/Portfolio-uzairjiqbal.github.io-0A0A0A?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio: uzairjiqbal.github.io"/></a>
+  <a href="mailto:uzair.j1089@gmail.com"><img src="https://img.shields.io/badge/Email-uzair.j1089%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: uzair.j1089@gmail.com"/></a>
 </p>
 
----
-
-### What I work on
-
-- **AI agents & evals**: tool-calling agents, MCP servers, grounded answers and code-graded evaluation
-- **Full-stack products**: Next.js, TypeScript, Supabase/Postgres, auth, payments and row-level security
-- **Developer tools**: static analysis, dependency graphs and Chrome extensions
-
-### Featured projects
+### Start here
 
 | Project | What it is | Stack |
 |---|---|---|
-| [**FlowLens**](https://github.com/UzairJIqbal/flowlens) · [live](https://flowlens-rouge.vercel.app) | Dependency map of any TypeScript/JavaScript repo, drawn from real parsing. AI explanations grounded in the graph, plus a chat agent and an MCP server. | Next.js, ts-morph, LangSmith, Supabase |
-| [**NeuraMeet**](https://github.com/UzairJIqbal/Neurameet) · [live](https://neurameet.vercel.app) | AI meeting platform: video calls with guest access, transcripts, summaries, action items and a meeting-aware chat. | Next.js, Stream, Supabase pgvector, Gemini |
-| [**Kunji**](https://github.com/UzairJIqbal/kunji) · [live](https://kunji-two.vercel.app) | Digital subscription store in PKR with mobile-wallet checkout, seller-approved payments and an encrypted credential vault. | Next.js, Supabase, Clerk, Postgres RLS |
-| [**JobPilot**](https://github.com/UzairJIqbal/Job_Pilot) | AI job-hunting assistant that finds roles, scores matches, researches companies and prepares interview material. | Next.js, Gemini, Playwright |
-| [**StoreIt**](https://github.com/UzairJIqbal/Store_It_Solution) · [live](https://store-it-solution-omega.vercel.app) | Cloud drive with nested folders, sharing, a ⌘K palette, drop links and smart tags. | Next.js 15, Appwrite, shadcn/ui |
-| [**YouTube Bookmarks**](https://github.com/UzairJIqbal/youtube_bm) · [site](https://uzairjiqbal.github.io/youtube_bm/) | Chrome extension to bookmark lectures at exact timestamps, with notes, loops and Markdown/Obsidian export. | React 19, TypeScript, Vite, MV3 |
+| [**FlowLens**](https://github.com/UzairJIqbal/flowlens) · [demo, no sign-in](https://flowlens-rouge.vercel.app/demo) | Dependency map of any public TypeScript/JavaScript repo, built by the TypeScript compiler. AI explanations use only what the parser found, plus a chat agent and an MCP server for coding agents. | Next.js, ts-morph, Supabase RLS, LangSmith |
+| [**NeuraMeet**](https://github.com/UzairJIqbal/Neurameet) · [live](https://neurameet.vercel.app) | AI meeting platform: video calls with guest access, transcripts, summaries, action items and a chat grounded in each meeting's transcript. | Next.js, Stream, Supabase pgvector, Gemini, Groq |
+| [**Kunji**](https://github.com/UzairJIqbal/kunji) · [live](https://kunji-two.vercel.app) | Digital subscription store in PKR: mobile-wallet checkout, seller-approved payments and an AES-256-GCM encrypted credential vault. | Next.js, Clerk, Supabase, Postgres RLS |
+| [**JobPilot**](https://github.com/UzairJIqbal/Job_Pilot) | AI job-hunting assistant: finds roles, scores matches against your profile, researches companies with a headless browser and prepares interview material. | Next.js, Gemini, Stagehand, InsForge |
+| [**StoreIt**](https://github.com/UzairJIqbal/Store_It_Solution) · [live](https://store-it-solution-omega.vercel.app) | Cloud drive with nested folders, sharing, a ⌘K palette, drop links and in-browser smart tags. | Next.js 15, Appwrite, shadcn/ui |
+| [**YouTube Study Bookmarks**](https://github.com/UzairJIqbal/youtube_bm) · [site](https://uzairjiqbal.github.io/youtube_bm/) | Chrome extension to bookmark lectures at exact timestamps, with notes, tags, clip loops and Markdown/Obsidian export. | React 19, TypeScript, Vite, MV3, Playwright |
 
-**Currently building:** VerifAI, an evaluation system for a tool-using support agent. It runs fixed tasks, records every step, grades with code and counts hallucinations.
+**Building now (Oct 2026):** VerifAI, an evaluation system for a tool-using support agent. The agent, its seven tools and a seeded test shop work; the task runner and code graders are next. The repo is private for now.
+
+### What I work on
+
+- **AI features with receipts:** tool-calling agents, RAG over pgvector, MCP servers, and checks that catch answers the data doesn't support
+- **Full-stack products:** Next.js, TypeScript, Supabase/Postgres, auth, payments and row-level security
+- **Developer tools:** static analysis, dependency graphs and Chrome extensions
 
 ### Tech stack
 
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,tailwind,postgres,supabase,mongodb,threejs,vercel,git&perline=12" alt="Tech stack"/>
-</p>
-
-**AI:** LLM agents · tool calling · MCP · RAG / pgvector · evals · LangChain · LangSmith · Vercel AI SDK · Gemini · Groq
-
-### GitHub stats
-
-<p>
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=UzairJIqbal&show_icons=true&hide_rank=true&hide=stars&count_private=true&hide_border=true&theme=transparent" alt="GitHub stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UzairJIqbal&layout=compact&hide_border=true&theme=transparent" alt="Top languages"/>
-</p>
+**Web:** TypeScript · JavaScript · React · Next.js · Node.js · Tailwind CSS · Three.js<br/>
+**Data:** Postgres · Supabase · Appwrite<br/>
+**AI:** Vercel AI SDK · Gemini · Groq · OpenAI SDK · LangSmith · MCP · pgvector<br/>
+**Testing & deploy:** Vitest · Playwright · GitHub Actions · Vercel
