@@ -19,7 +19,7 @@
 | [**Kunji**](https://github.com/UzairJIqbal/kunji) · [live](https://kunji-two.vercel.app) | Digital subscription store in PKR: mobile-wallet checkout, seller-approved payments and an AES-256-GCM encrypted credential vault. | Next.js, Clerk, Supabase, Postgres RLS |
 | [**JobPilot**](https://github.com/UzairJIqbal/Job_Pilot) | AI job-hunting assistant: finds roles, scores matches against your profile, researches companies with a headless browser and prepares interview material. | Next.js, Gemini, Stagehand, InsForge |
 | [**StoreIt**](https://github.com/UzairJIqbal/Store_It_Solution) · [live](https://store-it-solution-omega.vercel.app) | Cloud drive with nested folders, sharing, a ⌘K palette, drop links and in-browser smart tags. | Next.js 15, Appwrite, shadcn/ui |
-| [**YouTube Study Bookmarks**](https://github.com/UzairJIqbal/youtube_bm) · [site](https://uzairjiqbal.github.io/youtube_bm/) | Chrome extension to bookmark lectures at exact timestamps, with notes, tags, clip loops and Markdown/Obsidian export. | React 19, TypeScript, Vite, MV3, Playwright |
+| [**YouTube Study Bookmarks**](https://github.com/UzairJIqbal/youtube_bm) · [Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/youtube-study-bookmarks/ciobpmgaabihaoabjjiifhigfbnggmob) | Browser extension, live on Microsoft Edge Add-ons, to bookmark lectures at exact timestamps, with notes, tags, clip loops and Markdown/Obsidian export. | React 19, TypeScript, Vite, MV3, Playwright |
 
 **Building now (Oct 2026):** VerifAI, an evaluation system for a tool-using support agent. The agent, its seven tools and a seeded test shop work; the task runner and code graders are next. The repo is private for now.
 
